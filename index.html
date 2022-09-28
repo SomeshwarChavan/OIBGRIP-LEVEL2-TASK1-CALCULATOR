@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Calculator</title>
+        <link rel="stylesheet" href="css/calculator.css" />
+        <link rel="icon" type="image/x-icon" href="images/favicon.png" />
+    </head>
+    <body>
+        <div class="top-container">
+            <div class="input-container">
+                <input type="text" id="input" disabled />
+            </div>
+
+            <!-- main container -->
+            <div class="main-container">
+                <!-- left size container -->
+                <div>
+                    <div>
+                        <button id="C" class="special-buttons c C">C</button>
+                        <button id="sq" class="special-buttons s S">sq</button>
+                        <button id="back_space" class="special-buttons">DEL</button>
+                        <button id="*" class="arithmetic_button *">*</button>
+                    </div>
+
+                    <div>
+                        <button class="numeric_button 7">7</button>
+                        <button class="numeric_button 8">8</button>
+                        <button class="numeric_button 9">9</button>
+                        <button id="/" class="arithmetic_button /">/</button>
+                    </div>
+
+                    <div>
+                        <button class="numeric_button 4">4</button>
+                        <button class="numeric_button 5">5</button>
+                        <button class="numeric_button 6">6</button>
+                        <button id="-" class="arithmetic_button 7">-</button>
+                    </div>
+
+                    <div>
+                        <button class="numeric_button 1">1</button>
+                        <button class="numeric_button 2">2</button>
+                        <button class="numeric_button 3">3</button>
+                        <button id="+" class="arithmetic_button +">+</button>
+                    </div>
+
+                    <div>
+                        <button id="." class="dot .">.</button>
+                        <button class="numeric_button 0">0</button>
+                        <button class="numeric_button">00</button>
+                        <button id="=" class="equal-sign equal">=</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+    <script type="text/javascript" src="javascript/index.js"></script>
+</html>
